@@ -1,0 +1,76 @@
+- Revisao de tipos de dados e estruturas
+  - Tipos de dados
+     - Dinâmico e tipado
+     - type hint
+  - Estrutura de dados
+     - Lists e Dicts
+        - collections
+     - Serialização e deserialização
+        - JSON
+  - Utilizando estruturas
+    - enumerate e zip
+    - sorted
+    - list compreension
+    - items(), keys, values
+Caracteristicas
+  - pitfalls
+    - GIL
+      - asyncio
+      - redis, celery, etc
+      - dask, numpy, tensorflow, cython
+    - dinâmico/otimização
+      - dificuldade de otimizar compilação
+      - nuitka
+      - Pypy
+      - cálculos vetorizados e Cython
+    - na prática, pouco impacto (Pareto)
+  - vantagens
+    - baterias incluidas
+    - pip/conda --> loja de aplicativos
+      - (baterias incluidas e acessorios a um clique)
+      - venv e modular evita dependency hell
+    - import this
+    - dinamico
+    - conciso e coeso
+    - fluidez
+    - menos código, menos bugs
+Arquitetura
+  - clean code
+  - modulos e microservicos
+  - cookiecutter
+  - pip (muito mais que baterias incluidas)
+  - setuptools
+  - setup.py
+  - venv
+  - (pyenv, pipenv -- novidades)
+  - tox
+  - CI/CD
+  - TDD
+  - pytest, unittest, behave
+  - flake8, black
+  - code complexity (clean code)
+  - code coverage
+  - documentação (sphinx autodoc)
+  - Design Patterns simplificados
+  - Reflexão, introspecção, dinâmica
+    - "tudo" é classe/objeto
+    - função como parâmetro
+    - ponteiros de função e objeto
+    - do some magic - getattr e setattr
+  - pitfalls (sem almoço grátis)
+    - Code completion e check
+    - runtime error (sem compilação)
+    - type hints e mypy
+    - testes unitarios de qualidade 
+  
+Persistência
+  - SQLAlchemy
+Desenvolvimento web
+  - wtf
+  - megatutorial
+  - obey the testing goat
+Desenvolvimento API
+  - Open API
+  - swagger-ui
+  - connexion
+  - marshmallow-sqlalchemy
