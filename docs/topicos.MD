@@ -82,18 +82,21 @@
       - pickle
       - json
       - SQLAlchemy
+    - Desenvolvimento web
+      - Tutorial Flask
+      - Prática pequeno projeto web
 - Parte 2 - Aplicações
     - Desenvolvimento web
-      - wtf
-      - megatutorial
-      - obey the testing goat
+      - Tutoriais What The Flask e Flask Mega Tutorial
+      - Livro Obey the testing goat
+      - Terminar um projeto Flask maior, com Persistência, Flask-Admin, testes, etc
     - Desenvolvimento API
-      - Open API
+      - Padrão Open API
       - swagger-ui
       - connexion
       - marshmallow-sqlalchemy
-    - Consumindo APIs
-      - requests
+    - Consumindo APIs/sites
+      - biblioteca requests
 - Parte 3 - "Hackaton"
     - Colocando tudo junto
       - Configurando um projeto CI/CD com Git, Heroku, Travis, unittest e tox
