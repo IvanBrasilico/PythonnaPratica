@@ -12,7 +12,7 @@
     - sorted
     - list compreension
     - items(), keys, values
-Caracteristicas
+- Caracteristicas
   - pitfalls
     - GIL
       - asyncio
@@ -33,8 +33,19 @@ Caracteristicas
     - dinamico
     - conciso e coeso
     - fluidez
-    - menos código, menos bugs
-Arquitetura
+    - Porque Python
+      - Produtividade
+        - maximizar recurso
+      - Usabilidade e simplicidade
+        - focar no problema de negócio
+      - Concisão
+        - menos código, menos bugs
+      - Recurso humano >> recurso computacional
+        - economia inteligente
+      - Comunidade
+        - Principio de Linus
+        - "Mercado"
+- Arquitetura
   - clean code
   - modulos e microservicos
   - cookiecutter
@@ -54,6 +65,9 @@ Arquitetura
   - Design Patterns simplificados
   - Reflexão, introspecção, dinâmica
     - "tudo" é classe/objeto
+    - OOP ++
+    - multiparadigma / funcional
+    - Mixins
     - função como parâmetro
     - ponteiros de função e objeto
     - do some magic - getattr e setattr
@@ -62,7 +76,6 @@ Arquitetura
     - runtime error (sem compilação)
     - type hints e mypy
     - testes unitarios de qualidade 
-  
 Persistência
   - SQLAlchemy
 Desenvolvimento web
