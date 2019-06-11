@@ -2,7 +2,11 @@
     - Revisao de tipos de dados e estruturas
       - Tipos de dados
          - Dinâmico e tipado
-         - type hint
+           - decimal
+           - string
+           - None
+         https://realpython.com/python-data-types/
+         https://docs.python.org/3/library/datatypes.html
       - Estrutura de dados
          - Lists e Dicts
             - collections
@@ -13,6 +17,7 @@
         - sorted
         - list compreension
         - items(), keys, values
+      - datetime, dateutils, format, enum
     - Caracteristicas
       - pitfalls
         - GIL
@@ -45,6 +50,8 @@
             - economia inteligente
           - Comunidade
             - Principio de Linus
+            - Principio de Linus
+            - Principio de Linus
             - "Mercado"
     - Arquitetura
       - clean code
@@ -66,17 +73,25 @@
       - Design Patterns simplificados
       - Reflexão, introspecção, dinâmica
         - "tudo" é classe/objeto
-        - OOP ++
-        - multiparadigma / funcional
-        - Mixins
+        - multiparadigma
+            - POO
+                - Mixins
+            - funcional
+                - map, filter, etc
         - função como parâmetro
         - ponteiros de função e objeto
+        - herança multipla, mixins
         - do some magic - getattr e setattr
+        https://stackoverflow.com/questions/3277367/how-does-pythons-super-work-with-multiple-inheritance
+        https://teamtreehouse.com/community/how-usermixin-and-class-inheritance-work
+        https://realpython.com/oop-in-python-vs-java/
       - pitfalls (sem almoço grátis)
         - Code completion e check
         - runtime error (sem compilação)
-        - type hints e mypy
-        - testes unitarios de qualidade 
+        - workarounds
+            - type hints e mypy
+            - testes unitarios e de qualidade
+      - PEPs 
     - Persistência/ORM
       - open, write
       - pickle
