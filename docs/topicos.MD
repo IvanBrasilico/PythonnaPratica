@@ -50,8 +50,6 @@
             - economia inteligente
           - Comunidade
             - Principio de Linus
-            - Principio de Linus
-            - Principio de Linus
             - "Mercado"
     - Arquitetura
       - clean code
