@@ -35,6 +35,7 @@
         - pip/conda --> loja de aplicativos
           - (baterias incluidas e acessorios a um clique)
           - venv e modular evita dependency hell
+          - rodar pip freeze, criar venv, pip install, update, ==, >=, activate, deactivate, etc. 
         - import this
         - dinamico
         - conciso e coeso
