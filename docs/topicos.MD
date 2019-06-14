@@ -5,8 +5,8 @@
            - decimal
            - string
            - None
-         https://realpython.com/python-data-types/
-         https://docs.python.org/3/library/datatypes.html
+           - https://realpython.com/python-data-types/
+           - https://docs.python.org/3/library/datatypes.html
       - Estrutura de dados
          - Lists e Dicts
             - collections
@@ -81,9 +81,9 @@
         - ponteiros de função e objeto
         - herança multipla, mixins
         - do some magic - getattr e setattr
-        https://stackoverflow.com/questions/3277367/how-does-pythons-super-work-with-multiple-inheritance
-        https://teamtreehouse.com/community/how-usermixin-and-class-inheritance-work
-        https://realpython.com/oop-in-python-vs-java/
+        - https://stackoverflow.com/questions/3277367/how-does-pythons-super-work-with-multiple-inheritance
+        - https://teamtreehouse.com/community/how-usermixin-and-class-inheritance-work
+        - https://realpython.com/oop-in-python-vs-java/
       - pitfalls (sem almoço grátis)
         - Code completion e check
         - runtime error (sem compilação)
@@ -104,6 +104,7 @@
       - Tutoriais What The Flask e Flask Mega Tutorial
       - Livro Obey the testing goat
       - Terminar um projeto Flask maior, com Persistência, Flask-Admin, testes, etc
+      - https://www.toptal.com/flask/flask-production-recipes
     - Desenvolvimento API
       - Padrão Open API
       - swagger-ui
